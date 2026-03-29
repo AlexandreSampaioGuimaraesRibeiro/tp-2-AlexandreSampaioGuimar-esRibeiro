@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currículo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- COLUNA ESQUERDA -->
+    <aside class="sidebar">
+
+      <!-- FOTO -->
+      <div class="foto-wrapper">
+        <div class="foto-container">
+          <img src="img/WhatsApp Image 2026-03-29 at 14.32.31.jpeg" alt="Foto de perfil" class="foto" onerror="this.style.display='none'; this.parentElement.querySelector('.foto-placeholder').style.display='flex'"/>
+          <div class="foto-placeholder">
+            <span class="foto-icon">&#128247;</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTATO -->
+      <section class="sidebar-section">
+        <h3 class="sidebar-title">Contato</h3>
+        <ul class="contato-lista">
+          <li>
+            <span class="icone">&#9993;</span>
+            <span>lexandre.guimaraes@email.com</span>
+          </li>
+          <li>
+            <span class="icone">&#128222;</span>
+            <span>(31) 99999-9999</span>
+          </li>
+          <li>
+            <span class="icone">&#127968;</span>
+            <span>Belo Horizonte, MG</span>
+          </li>
+          <li>
+            <span class="icone">&#127760;</span>
+            <span>linkedin.com/in/lexandre-guimaraes</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- HABILIDADES -->
+      <section class="sidebar-section">
+        <h3 class="sidebar-title">Habilidades</h3>
+        <ul class="habilidades-lista">
+          <li>
+            <span class="habilidade-nome">Comunicação</span>
+            <div class="barra-bg"><div class="barra" style="width:90%"></div></div>
+          </li>
+          <li>
+            <span class="habilidade-nome">Trabalho em Equipe</span>
+            <div class="barra-bg"><div class="barra" style="width:85%"></div></div>
+          </li>
+          <li>
+            <span class="habilidade-nome">Microsoft Office</span>
+            <div class="barra-bg"><div class="barra" style="width:80%"></div></div>
+          </li>
+          <li>
+            <span class="habilidade-nome">Liderança</span>
+            <div class="barra-bg"><div class="barra" style="width:75%"></div></div>
+          </li>
+          <li>
+            <span class="habilidade-nome">Análise de Dados</span>
+            <div class="barra-bg"><div class="barra" style="width:70%"></div></div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- IDIOMAS -->
+      <section class="sidebar-section">
+        <h3 class="sidebar-title">Idiomas</h3>
+        <ul class="idiomas-lista">
+          <li><span>Português</span><span class="nivel nativo">Nativo</span></li>
+          <li><span>Inglês</span><span class="nivel avancado">Avançado</span></li>
+          <li><span>Espanhol</span><span class="nivel intermediario">Intermediário</span></li>
+        </ul>
+      </section>
+
+    </aside>
+
+    <!-- COLUNA DIREITA -->
+    <main class="conteudo">
+
+      <!-- CABEÇALHO -->
+      <header class="cabecalho">
+        <h1 class="nome">Alexandre Sampaio Guimarães Ribeiro</h1>
+        <h2 class="cargo">Estudante de Engenharia de Software</h2>
+        <div class="linha-decorativa"></div>
+      </header>
+
+      <!-- PERFIL -->
+      <section class="secao">
+        <h2 class="secao-titulo">Perfil Profissional</h2>
+        <p class="texto">
+          Profissional com mais de X anos de experiência na área, apaixonado por resultados e inovação. Possuo sólida formação em [área] com atuação em projetos de grande impacto. Busco constantemente aprimorar minhas competências e contribuir para o crescimento das organizações em que atuo.
+        </p>
+      </section>
+
+      <!-- EXPERIÊNCIA -->
+      <section class="secao">
+        <h2 class="secao-titulo">Experiência Profissional</h2>
+
+        <div class="item-timeline">
+          <div class="item-header">
+            <div>
+              <h3 class="item-cargo">Cargo / Função</h3>
+              <p class="item-empresa">Nome da Empresa &mdash; São Paulo, SP</p>
+            </div>
+            <span class="item-data">Jan 2022 &ndash; Atual</span>
+          </div>
+          <ul class="item-descricao">
+            <li>Responsável por ...</li>
+            <li>Gerenciamento de equipe com X integrantes, atingindo metas de ...</li>
+            <li>Implantação de processos que reduziram custos em X%.</li>
+          </ul>
+        </div>
+
+        <div class="item-timeline">
+          <div class="item-header">
+            <div>
+              <h3 class="item-cargo">Cargo / Função Anterior</h3>
+              <p class="item-empresa">Nome da Empresa Anterior &mdash; São Paulo, SP</p>
+            </div>
+            <span class="item-data">Mar 2019 &ndash; Dez 2021</span>
+          </div>
+          <ul class="item-descricao">
+            <li>Desenvolvimento de [atividade principal].</li>
+            <li>Participação em projetos de [área], com resultado de [conquista].</li>
+            <li>Colaboração interdepartamental para entrega de soluções eficientes.</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <!-- FORMAÇÃO -->
+      <section class="secao">
+        <h2 class="secao-titulo">Formação Acadêmica</h2>
+
+        <div class="item-timeline">
+          <div class="item-header">
+            <div>
+              <h3 class="item-cargo">Bacharelado em [Curso]</h3>
+              <p class="item-empresa">Puc Minas</p>
+            </div>
+            <span class="item-data">2015 &ndash; 2019</span>
+          </div>
+        </div>
+
+        <div class="item-timeline">
+          <div class="item-header">
+            <div>
+              <h3 class="item-cargo">MBA em [Especialização]</h3>
+              <p class="item-empresa">Puc Minas</p>
+            </div>
+            <span class="item-data">2020 &ndash; 2021</span>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- CERTIFICAÇÕES -->
+      <section class="secao">
+        <h2 class="secao-titulo">Certificações</h2>
+        <div class="certs-grid">
+          <div class="cert-item">&#10003; Certificação em [Área] &mdash; Instituição, 2023</div>
+          <div class="cert-item">&#10003; Curso de [Nome] &mdash; Plataforma, 2022</div>
+          <div class="cert-item">&#10003; [Outra Certificação] &mdash; Instituição, 2021</div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
